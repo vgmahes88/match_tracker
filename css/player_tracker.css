@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Bold.woff') format('woff'), url('../fonts/Futura-Bold.ttf')  format('truetype'), url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face 
+{
+	  font-family: 'FuturaBT-Medium';
+	  src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('../fonts/FuturaBT-Medium.woff') format('woff'), 
+	       url('../fonts/FuturaBT-Medium.ttf')  format('truetype'), 
+	       url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+body
+{
+	font-family: 'Futura-Bold';
+	resize:horizontal !important;
+}
+.player_tracker
+{
+	width:1200px;
+	height:685px;
+	margin:10px;
+	resize:horizontal !important;
+	background-image:url("../img/mt 4.png");
+	background-size:100% 100%;
+}
+.player_team_com
+{
+	height:685px;
+}
+.player_team_a
+{
+	background-image:url("../img/11.png");
+	background-size:100% 100%;
+	width: 674px;
+	position: absolute;
+	z-index: 1050;
+	
+}
+.player_team_b
+{
+	background-image:url("../img/22.png");
+	background-size:100% 100%;
+	float: right;
+    width: 650px;
+	
+}
+.player_left_logo img
+{
+	float:left;
+}
+.player_right_logo
+{
+	float:right;
+	padding-top: 30px;
+	height:150px;
+}
+.player_team_a_left,.player_team_b_right
+{
+	clear:both;
+}
+.player_track_main_left,.player_track_main_right
+{
+	clear:both;
+}
+.player_team_a_left figure img,.player_team_a_right figure img
+{
+	width:280px;
+}
+.player_left_score,.player_right_score
+{
+	padding-top:77px;
+}
+.player_left_score figcaption:nth-child(3)
+{
+	font-size: 25px;
+	color: #fff;
+	margin-left: 16px;
+}
+.player_left_score figcaption:nth-child(1),
+.player_left_score figcaption:nth-child(2)
+{
+  font-family: 'Futura-Bold';
+	text-transform: uppercase;
+	font-size: 44px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 42px;
+}
+.player_right_score figcaption:nth-child(3)
+{
+	font-size: 25px;
+	color: #fff;
+	margin-left: 16px;
+}
+.player_right_score figcaption:nth-child(1),
+.player_right_score figcaption:nth-child(2)
+{
+  font-family: 'Futura-Bold';
+	text-transform: uppercase;
+	font-size: 44px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 42px;
+}
+.player_right_score
+{
+	margin-left:40%;
+}
+.player_track_details {
+    top: -158px;
+    position: relative;
+    z-index: 1050;
+    background: rgba(85, 49, 88, 0.44);
+    text-transform:uppercase;
+    padding: 13px;
+}
+.players_runs_left span,
+.players_runs_right span
+{
+	font-size:33px;
+}
+.players_runs_left span span:nth-child(1),
+.players_runs_right span span:nth-child(1)
+{
+	color: #FF2023;
+	font-family: 'Futura-Bold';
+	letter-spacing: 2px;
+}
+.players_runs_left span span:nth-child(2),
+.players_runs_right span span:nth-child(2)
+{
+	color:#fff;
+	font-family: 'Futura-Bold';
+	letter-spacing: 2px;
+	left: 10px;
+	position: relative;
+}
+.winby_details
+{
+	top: -236px;
+	position: relative;
+	z-index: 1050;
+}
+.winby_details h3
+{
+	color: #fff;
+	font-family: 'Futura-Bold';
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	font-weight: bold;
+}

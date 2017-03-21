@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Bold.woff') format('woff'), url('../fonts/Futura-Bold.ttf')  format('truetype'), url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	font-family: 'Futura-Bold';
+	resize:horizontal !important;
+}
+.match_tracker
+{
+	width:1200px;
+	height:685px;
+	margin:10px;
+	resize:horizontal !important;
+	background-image:url("../img/mt 4.png");
+	background-size:100% 100%;
+}
+.team_com
+{
+	height:685px;
+}
+.team_a
+{
+	background-image:url("../img/11.png");
+	background-size:100% 100%;
+	width: 674px;
+	position: absolute;
+	z-index: 1050;
+	
+}
+.team_b
+{
+	background-image:url("../img/22.png");
+	background-size:100% 100%;
+	float: right;
+    width: 650px;
+	
+}
+.left_logo img
+{
+	float:left;
+}
+.right_logo
+{
+	float:right;
+	padding-top: 30px;
+	height:150px;
+}
+.team_a_left,.team_b_right
+{
+	clear:both;
+}
+.team_a_left figure img,
+.team_b_right figure img
+{
+	width:250px;
+}
+.team_a_left figure figcaption,
+.team_b_right figure figcaption
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-size: 39px;
+	width: 40%;
+}
+.venue_details
+{
+	top: -158px;
+	position: relative;
+	z-index: 1050;
+	background: #03333766;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.venue_details span
+{
+	color: #E11839;
+	font-size:32px;
+}
+.red
+{
+	color:#401435;
+}
+.venue_details span span:nth-child(2)
+{
+	color:#fff !important;
+}
+.loc_versus
+{
+	float:right;
+}
+.loc_versus span
+{
+	float: left;
+	clear: both;
+	position: absolute;
+	top: 30%;
+	font-size: 64px;
+	color: #fff;
+	right: 30px;
+	-ms-transform: rotate(11deg);
+	-webkit-transform: rotate(11deg);
+	transform: rotate(11deg);
+	font-weight:bold;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
